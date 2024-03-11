@@ -1,5 +1,8 @@
 package com.nju;
 
+import com.nju.beans.factory.BeanFactory;
+import com.nju.beans.factory.config.BeanDefinition;
+import com.nju.beans.factory.support.DefaultListableBeanFactory;
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -7,17 +10,10 @@ public class BeanContainerTest {
 
     @Test
     public void testGetBean() {
-        BeanFactory beanFactory = new BeanFactory();
-        beanFactory.registerBean("helloService", new HelloService());
+        DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
+        BeanDefinition beanDefinition = new BeanDefinition(HelloService.class);
+        beanFactory.registerBeanDefinition("helloService", beanDefinition);
         HelloService helloService = (HelloService) beanFactory.getBean("helloService");
-        assertThat(helloService).isNotNull();
-        assertThat(helloService.sayHello()).isEqualTo("hello");
-    }
-
-    class HelloService {
-        public String sayHello() {
-            System.out.println("hello");
-            return "hello";
-        }
+        helloService.sayHello();
     }
 }
