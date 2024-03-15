@@ -1,8 +1,8 @@
 package com.nju;
 
-import com.nju.beans.factory.BeanFactory;
 import com.nju.beans.factory.config.BeanDefinition;
 import com.nju.beans.factory.support.DefaultListableBeanFactory;
+import com.nju.service.HelloService;
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -1,7 +1,6 @@
-package com.nju;
+package com.nju.service;
 
 public class HelloService {
-
     public String sayHello() {
         System.out.println("hello");
         return "hello";
