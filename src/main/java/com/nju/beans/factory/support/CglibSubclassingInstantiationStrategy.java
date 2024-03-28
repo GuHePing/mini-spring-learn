@@ -2,7 +2,7 @@ package com.nju.beans.factory.support;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
-import com.nju.BeansException;
+import com.nju.beans.BeansException;
 import com.nju.beans.factory.config.BeanDefinition;
 
 public class CglibSubclassingInstantiationStrategy implements InstantiationStrategy {

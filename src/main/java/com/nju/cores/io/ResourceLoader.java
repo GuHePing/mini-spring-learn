@@ -1,4 +1,4 @@
-package com.nju.beans.cores.io;
+package com.nju.cores.io;
 
 /**
  * 资源加载器接口

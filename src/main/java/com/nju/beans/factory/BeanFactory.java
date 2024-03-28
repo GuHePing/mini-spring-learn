@@ -1,9 +1,6 @@
 package com.nju.beans.factory;
 
-import com.nju.BeansException;
-
-import java.util.HashMap;
-import java.util.Map;
+import com.nju.beans.BeansException;
 
 public interface BeanFactory {
 

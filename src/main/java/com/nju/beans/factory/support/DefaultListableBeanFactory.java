@@ -1,6 +1,6 @@
 package com.nju.beans.factory.support;
 
-import com.nju.BeansException;
+import com.nju.beans.BeansException;
 import com.nju.beans.factory.config.BeanDefinition;
 
 import java.util.HashMap;
@@ -21,5 +21,10 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
     @Override
     public void registerBeanDefinition(String beanName, BeanDefinition beanDefinition) {
         beanDefinitionMap.put(beanName, beanDefinition);
+    }
+
+    @Override
+    public boolean containsBeanDefinition(String beanName) {
+        return beanDefinitionMap.containsKey(beanName);
     }
 }

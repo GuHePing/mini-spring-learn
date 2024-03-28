@@ -1,7 +1,10 @@
 package com.nju;
 
 import cn.hutool.core.io.IoUtil;
-import com.nju.beans.cores.io.*;
+import com.nju.cores.io.DefaultResourceLoader;
+import com.nju.cores.io.FileSystemResource;
+import com.nju.cores.io.Resource;
+import com.nju.cores.io.UrlResource;
 import org.junit.Test;
 
 import java.io.InputStream;

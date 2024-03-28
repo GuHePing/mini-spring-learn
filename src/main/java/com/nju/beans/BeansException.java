@@ -1,4 +1,4 @@
-package com.nju;
+package com.nju.beans;
 
 public class BeansException extends RuntimeException {
 

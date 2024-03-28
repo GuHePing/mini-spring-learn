@@ -2,8 +2,8 @@ package com.nju;
 
 import com.nju.bean.Car;
 import com.nju.bean.Person;
-import com.nju.beans.factory.PropertyValue;
-import com.nju.beans.factory.PropertyValues;
+import com.nju.beans.PropertyValue;
+import com.nju.beans.PropertyValues;
 import com.nju.beans.factory.config.BeanDefinition;
 import com.nju.beans.factory.config.BeanReference;
 import com.nju.beans.factory.support.DefaultListableBeanFactory;

@@ -1,4 +1,4 @@
-package com.nju.beans.cores.io;
+package com.nju.cores.io;
 
 import java.net.MalformedURLException;
 import java.net.URL;

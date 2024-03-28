@@ -1,4 +1,6 @@
-package com.nju.beans.factory;
+package com.nju.beans;
+
+import com.nju.beans.PropertyValue;
 
 import java.util.ArrayList;
 import java.util.List;

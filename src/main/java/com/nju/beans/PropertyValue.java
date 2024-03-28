@@ -1,4 +1,4 @@
-package com.nju.beans.factory;
+package com.nju.beans;
 
 /**
  * bean属性

@@ -1,6 +1,6 @@
 package com.nju.beans.factory.config;
 
-import com.nju.beans.factory.PropertyValues;
+import com.nju.beans.PropertyValues;
 
 public class BeanDefinition {
     private Class beanClass;
@@ -13,7 +13,7 @@ public class BeanDefinition {
 
     public BeanDefinition(Class beanClass, PropertyValues propertyValues) {
         this.beanClass = beanClass;
-        this.propertyValues = propertyValues;
+        this.propertyValues = propertyValues != null ? propertyValues : new PropertyValues();
     }
 
     public PropertyValues getPropertyValues() {

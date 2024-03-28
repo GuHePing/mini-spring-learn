@@ -1,4 +1,4 @@
-package com.nju.beans.cores.io;
+package com.nju.cores.io;
 
 import java.io.IOException;
 import java.io.InputStream;

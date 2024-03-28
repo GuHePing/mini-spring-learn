@@ -1,8 +1,8 @@
 package com.nju.beans.factory.support;
 
 import cn.hutool.core.bean.BeanUtil;
-import com.nju.BeansException;
-import com.nju.beans.factory.PropertyValue;
+import com.nju.beans.BeansException;
+import com.nju.beans.PropertyValue;
 import com.nju.beans.factory.config.BeanDefinition;
 import com.nju.beans.factory.config.BeanReference;
 
