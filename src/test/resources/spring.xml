@@ -8,4 +8,8 @@
     <bean id="car" class="com.nju.bean.Car">
         <property name="brand" value="nio"/>
     </bean>
+
+    <bean class="com.nju.common.CustomerBeanPostProcessor"/>
+
+    <bean class="com.nju.common.CustomBeanFactoryPostProcessor"/>
 </beans>
